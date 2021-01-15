@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class WishMsgController {
 
-	@GetMapping("/")
+	@GetMapping("/msg")
 	public String showmsg(Model model) {
 		return "Wish";
 		
